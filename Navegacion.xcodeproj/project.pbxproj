@@ -12,6 +12,13 @@
 		14729F4B22614E7800D6C2FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14729F4922614E7800D6C2FC /* Main.storyboard */; };
 		14729F4D22614E7A00D6C2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14729F4C22614E7A00D6C2FC /* Assets.xcassets */; };
 		14729F5022614E7A00D6C2FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14729F4E22614E7A00D6C2FC /* LaunchScreen.storyboard */; };
+		14729F5822614F8300D6C2FC /* SegundoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14729F5722614F8300D6C2FC /* SegundoViewController.swift */; };
+		14729F5A2261527200D6C2FC /* TercerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14729F592261527200D6C2FC /* TercerViewController.swift */; };
+		14729F5C226154A300D6C2FC /* Segundo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14729F5B226154A300D6C2FC /* Segundo.storyboard */; };
+		14729F5E226154E800D6C2FC /* PssViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14729F5D226154E800D6C2FC /* PssViewController.swift */; };
+		14729F602261589500D6C2FC /* SssViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14729F5F2261589500D6C2FC /* SssViewController.swift */; };
+		14729F6422639E0900D6C2FC /* tercer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14729F6322639E0900D6C2FC /* tercer.storyboard */; };
+		14729F662263A05900D6C2FC /* PtsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14729F652263A05900D6C2FC /* PtsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		14729F4C22614E7A00D6C2FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14729F4F22614E7A00D6C2FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14729F5122614E7A00D6C2FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14729F5722614F8300D6C2FC /* SegundoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundoViewController.swift; sourceTree = "<group>"; };
+		14729F592261527200D6C2FC /* TercerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TercerViewController.swift; sourceTree = "<group>"; };
+		14729F5B226154A300D6C2FC /* Segundo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Segundo.storyboard; sourceTree = "<group>"; };
+		14729F5D226154E800D6C2FC /* PssViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PssViewController.swift; sourceTree = "<group>"; };
+		14729F5F2261589500D6C2FC /* SssViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SssViewController.swift; sourceTree = "<group>"; };
+		14729F6322639E0900D6C2FC /* tercer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = tercer.storyboard; sourceTree = "<group>"; };
+		14729F652263A05900D6C2FC /* PtsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PtsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +69,44 @@
 			isa = PBXGroup;
 			children = (
 				14729F4522614E7800D6C2FC /* AppDelegate.swift */,
-				14729F4722614E7800D6C2FC /* ViewController.swift */,
+				14729F61226158DF00D6C2FC /* main */,
 				14729F4922614E7800D6C2FC /* Main.storyboard */,
+				14729F6322639E0900D6C2FC /* tercer.storyboard */,
+				14729F5B226154A300D6C2FC /* Segundo.storyboard */,
 				14729F4C22614E7A00D6C2FC /* Assets.xcassets */,
 				14729F4E22614E7A00D6C2FC /* LaunchScreen.storyboard */,
 				14729F5122614E7A00D6C2FC /* Info.plist */,
+				14729F622261590E00D6C2FC /* segundo */,
+				14729F672263A06500D6C2FC /* tercero */,
 			);
 			path = Navegacion;
+			sourceTree = "<group>";
+		};
+		14729F61226158DF00D6C2FC /* main */ = {
+			isa = PBXGroup;
+			children = (
+				14729F4722614E7800D6C2FC /* ViewController.swift */,
+				14729F5722614F8300D6C2FC /* SegundoViewController.swift */,
+				14729F592261527200D6C2FC /* TercerViewController.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		14729F622261590E00D6C2FC /* segundo */ = {
+			isa = PBXGroup;
+			children = (
+				14729F5D226154E800D6C2FC /* PssViewController.swift */,
+				14729F5F2261589500D6C2FC /* SssViewController.swift */,
+			);
+			path = segundo;
+			sourceTree = "<group>";
+		};
+		14729F672263A06500D6C2FC /* tercero */ = {
+			isa = PBXGroup;
+			children = (
+				14729F652263A05900D6C2FC /* PtsViewController.swift */,
+			);
+			path = tercero;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +169,9 @@
 			files = (
 				14729F5022614E7A00D6C2FC /* LaunchScreen.storyboard in Resources */,
 				14729F4D22614E7A00D6C2FC /* Assets.xcassets in Resources */,
+				14729F5C226154A300D6C2FC /* Segundo.storyboard in Resources */,
 				14729F4B22614E7800D6C2FC /* Main.storyboard in Resources */,
+				14729F6422639E0900D6C2FC /* tercer.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +182,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14729F602261589500D6C2FC /* SssViewController.swift in Sources */,
 				14729F4822614E7800D6C2FC /* ViewController.swift in Sources */,
+				14729F5A2261527200D6C2FC /* TercerViewController.swift in Sources */,
+				14729F662263A05900D6C2FC /* PtsViewController.swift in Sources */,
+				14729F5E226154E800D6C2FC /* PssViewController.swift in Sources */,
 				14729F4622614E7800D6C2FC /* AppDelegate.swift in Sources */,
+				14729F5822614F8300D6C2FC /* SegundoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
